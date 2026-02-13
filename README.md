@@ -7,6 +7,8 @@ A través de una interfaz gráfica, el usuario puede definir bloques de memoria 
 
 El objetivo es facilitar la comprensión práctica de estos algoritmos mediante una representación visual clara y dinámica.
 
+
+
 🧭 Instrucciones
 ✅ ¿Qué debe hacer el usuario?
 
@@ -45,6 +47,8 @@ Cantidad de procesos asignados.
 Un resultado comparativo indicando qué algoritmo tuvo mejor desempeño.
 
 ⚙️ Explicación de los algoritmos
+
+
 🔹 Best Fit
 
 El algoritmo Best Fit busca el bloque de memoria más pequeño posible en el que quepa el proceso.
@@ -59,6 +63,7 @@ El algoritmo Worst Fit selecciona el bloque de memoria más grande disponible pa
 
 Ventaja: Deja espacios grandes que pueden ser reutilizados por otros procesos.
 Desventaja: Puede generar mayor fragmentación interna.
+
 
 🧠 Reflexión
 
