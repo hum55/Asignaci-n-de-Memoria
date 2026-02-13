@@ -1,85 +1,78 @@
-🧠 Simulador de Asignación de Memoria — Best Fit vs Worst Fit
-📖 Introducción (Descripción general del simulador)
+# Simulador de Asignación de Memoria — Best Fit vs Worst Fit
+## Introducción (Descripción general del simulador)
 
-Este simulador permite visualizar de manera interactiva cómo funcionan los algoritmos de asignación de memoria Best Fit y Worst Fit, dos estrategias clásicas utilizadas en la gestión de memoria de los sistemas operativos.
+Este simulador permite visualizar de manera interactiva cómo funcionan los algoritmos de asignación de memoria Best Fit y Worst Fit, dos estrategias clásicas utilizadas en la gestión de memoria de los sistemas operativos. A través de una interfaz gráfica, el usuario puede definir bloques de memoria y procesos, ejecutar la simulación y observar cómo cada algoritmo asigna los procesos, además de analizar la fragmentación interna generada y comparar cuál ofrece un mejor aprovechamiento de la memoria.
 
-A través de una interfaz gráfica, el usuario puede definir bloques de memoria y procesos, ejecutar la simulación y observar cómo cada algoritmo asigna los procesos, además de analizar la fragmentación interna generada y comparar cuál ofrece un mejor aprovechamiento de la memoria.
+El **objetivo** es facilitar la comprensión práctica de estos algoritmos mediante una representación visual clara y dinámica.
 
-El objetivo es facilitar la comprensión práctica de estos algoritmos mediante una representación visual clara y dinámica.
+# ✅ ¿Qué debe hacer el usuario?
 
+- Abrir el archivo index.html en el navegador.
 
+- Agregar bloques de memoria indicando su tamaño en KB.
 
-🧭 Instrucciones
-✅ ¿Qué debe hacer el usuario?
+- Agregar procesos indicando su tamaño y nombre.
 
-Abrir el archivo index.html en el navegador.
+- Presionar el botón "Ejecutar Simulación".
 
-Agregar bloques de memoria indicando su tamaño en KB.
+# 👀 ¿Qué va a observar?
 
-Agregar procesos indicando su tamaño y nombre.
+- Dos paneles de simulación:
 
-Presionar el botón "Ejecutar Simulación".
+- Best Fit
 
-👀 ¿Qué va a observar?
+- Worst Fit
 
-Dos paneles de simulación:
+- Representación gráfica de cada bloque de memoria.
 
-Best Fit
+- El proceso asignado a cada bloque.
 
-Worst Fit
+- El porcentaje utilizado del bloque.
 
-Representación gráfica de cada bloque de memoria.
+- Indicadores visuales de fragmentación.
 
-El proceso asignado a cada bloque.
+# 📊 ¿Qué significan los resultados?
 
-El porcentaje utilizado del bloque.
+## El sistema mostrará automáticamente:
 
-Indicadores visuales de fragmentación.
+- Fragmentación interna total generada por cada algoritmo.
 
-📊 ¿Qué significan los resultados?
+- Cantidad de procesos asignados.
 
-El sistema mostrará automáticamente:
+- Un resultado comparativo indicando qué algoritmo tuvo mejor desempeño.
 
-Fragmentación interna total generada por cada algoritmo.
-
-Cantidad de procesos asignados.
-
-Un resultado comparativo indicando qué algoritmo tuvo mejor desempeño.
-
-⚙️ Explicación de los algoritmos
+# ⚙️ Explicación de los algoritmos
 
 
-🔹 Best Fit
+## 🔹 Best Fit
 
-El algoritmo Best Fit busca el bloque de memoria más pequeño posible en el que quepa el proceso.
+- El algoritmo Best Fit busca el bloque de memoria más pequeño posible en el que quepa el proceso.
 Su objetivo es dejar el menor espacio libre sobrante, reduciendo la fragmentación interna.
 
-Ventaja: Uso más preciso de la memoria.
+- Ventaja: Uso más preciso de la memoria.
 Desventaja: Puede generar muchos espacios pequeños difíciles de reutilizar.
 
-🔸 Worst Fit
+## 🔸 Worst Fit
 
-El algoritmo Worst Fit selecciona el bloque de memoria más grande disponible para asignar el proceso.
+- El algoritmo Worst Fit selecciona el bloque de memoria más grande disponible para asignar el proceso.
 
-Ventaja: Deja espacios grandes que pueden ser reutilizados por otros procesos.
-Desventaja: Puede generar mayor fragmentación interna.
+- Ventaja: Deja espacios grandes que pueden ser reutilizados por otros procesos.
+- Desventaja: Puede generar mayor fragmentación interna.
 
 
-🧠 Reflexión
+# 🧠 Reflexión
 
 Este simulador permite comprender que la eficiencia en la asignación de memoria no depende únicamente de asignar procesos, sino de cómo se distribuye el espacio restante. Visualmente se aprecia que Best Fit tiende a aprovechar mejor la memoria disponible, mientras que Worst Fit prioriza dejar bloques grandes libres. La comparación directa facilita entender por qué la fragmentación interna es un factor crítico en la gestión de memoria de los sistemas operativos.
 
-📚 Referencias
+# 📚 Referencias
 
-Operating System Concepts — Abraham Silberschatz, Peter B. Galvin, Greg Gagne.
+- Operating System Concepts — Abraham Silberschatz, Peter B. Galvin, Greg Gagne.
 
-Modern Operating Systems — Andrew S. Tanenbaum.
+- Modern Operating Systems — Andrew S. Tanenbaum.
 
-Operating Systems: Internals and Design Principles — William Stallings.
+- Operating Systems: Internals and Design Principles — William Stallings.
 
-🤖 Clausula de ia
+## 🤖 Clausula de ia
 
 
-Yo, HUMBERTO RAMIREZ GRUINTAL, declaro que NO he utilizado herramientas de Inteligencia Artificial para la elaboración de este trabajo académico. Afirmo que cuento con evidencias físicas y/o digitales que demuestran mi autoría, incluyendo pero no limitándose a: documentos manuscritos, materiales impresos con anotaciones o subrayado, historial de versiones de documentos electrónicos, o commits en repositorios de código.
-
-Reconozco y acepto que el profesor se reserva el derecho de solicitar dichas evidencias en cualquier momento, especialmente cuando existan sospechas o se detecten conductas que atenten contra la integridad académica, tales como plagio o uso no reportado de herramientas de IA.
+Yo, HUMBERTO RAMIREZ GRUINTAL, declaro que NO he utilizado herramientas de Inteligencia Artificial para la elaboración de este trabajo académico. Afirmo que cuento con evidencias físicas y/o digitales que demuestran mi autoría, incluyendo pero no limitándose a: documentos manuscritos, materiales impresos con anotaciones o subrayado, historial de versiones de documentos electrónicos, o commits en repositorios de código. Reconozco y acepto que el profesor se reserva el derecho de solicitar dichas evidencias en cualquier momento, especialmente cuando existan sospechas o se detecten conductas que atenten contra la integridad académica, tales como plagio o uso no reportado de herramientas de IA.
